@@ -3,74 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nsroma</title>
+    <title>Landing Page Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="headfootsection">
-        <div class="header">
+        <header>
+            <div class="container">
 
-            <img src="" alt="Header Logo">
-            <ul class="rightlinks">
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>FAQ</li>
-            </ul>
-        </div>
-
-        <div class="heroarrange">
-            <div class="herocontainer">
-                <div class="herotitle"> This Website is Amazing</div>
-                <div class="herotext">This website has some text that goes here</div>
-                <div class="buttonprop">
-                    <button>Sign up</button>
+                <nav class="nav-bar">
+                    <img src="" alt="Header Logo">
+                    <ul class="rightlinks">
+                        <li>About</li>
+                        <li>Contact Us</li>
+                        <li>FAQ</li>
+                    </ul>
+                </nav>
+                
+                <div class="hero">
+                    <div class="herocontainer">
+                        <h1 class="herotitle"> This Website is Amazing</h1>
+                        <p class="herotext">This website has some text that goes here</p>
+                        <button class="buttonprop">Sign up</button>
+                    </div>
+                    
+                    <div>
+                        <img src="./images/pexels-gabby-k-6621335.jpg" alt="This is a placeholder for image">
+                    </div>
                 </div>
             </div>
-            
-            <div>
-                <img src="./images/pexels-gabby-k-6621335.jpg" alt="This is a placeholder for image">
+        </header>
+
+    <section class="container">
+        <div class="infoheadtext">Some Random Information</div>
+        <div class="content">
+            <div class="card">
+                <img src="./images/pexels-polina-kovaleva-5420491.jpg" alt="First Image">
+                <div class="description">This is some description under an illustration or image</div>
+            </div>
+            <div class="card">
+                <img src="./images/pexels-mart-production-8450391.jpg" alt="Second Image">
+                <div class="description">This is some description under an illustration or image</div>
+            </div>
+            <div class="card">
+                <img src="./images/pexels-karolina-grabowska-5240788.jpg" alt="Third Image">
+                <div class="description">This is some description under an illustration or image</div>
+            </div>
+            <div class="card">
+                <img src="./images/pexels-karolina-grabowska-4870705.jpg" alt="Fourth Image">
+                <div class="description">This is some description under an illustration or image</div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="infoheadtext">Some Random Information</div>
-    <div class="content">
-        <div class="card">
-            <img src="./images/pexels-polina-kovaleva-5420491.jpg" alt="First Image">
-            <div class="description">This is some description under an illustration or image</div>
-        </div>
-        <div class="card">
-            <img src="./images/pexels-mart-production-8450391.jpg" alt="Second Image">
-            <div class="description">This is some description under an illustration or image</div>
-        </div>
-        <div class="card">
-            <img src="./images/pexels-karolina-grabowska-5240788.jpg" alt="Third Image">
-            <div class="description">This is some description under an illustration or image</div>
-        </div>
-        <div class="card">
-            <img src="./images/pexels-karolina-grabowska-4870705.jpg" alt="Fourth Image">
-            <div class="description">This is some description under an illustration or image</div>
-        </div>
-    </div>
+    <section class="quote">
+        <div class="container">
 
-    <div class="quote">
-        <div class="text">
-            <div>This is an inspiring quote, or testimonial from a customer. Maybe its just filling up space, or maybe people actually read comments and reviews about products. All I know is that it looks nice.</div>
-                <div>-Thor, God of Thunder</div>
+            <p class="quote-text">This is an inspiring quote, or testimonial from a customer. Maybe its just filling up space, or maybe people actually read comments and reviews about products. All I know is that it looks nice.</p>
+            <p class="quote-auth">-Thor, God of Thunder</p>
         </div>
-    </div>
+    </section>
 
-    <div>
-        <div>Call to Action! It's time!</div>
-        <div>Sign up for our product by clicking that button right over there!</div>
-        <button>Sign Up</button>
-    </div>
+    <section class="container cta-section">
+        <div class="cta-wrapper">
+            <div>
+                <h3>Call to Action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <a href="#" class=".cta-button">Sign Up</a>
+        </div>
+    </section>
 
-    <div class="headfootsection">
-        Copyright: The Odin Project 2021
-    </div>
+    <footer>
+        <p>The Odin Project was inspiration</p>
+    </footer>
 </body>
 </html>
